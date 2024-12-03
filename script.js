@@ -28,10 +28,10 @@ function newQuote() {
   // -----> Only use one of the following const quote statements
 
   // Pick a random quote from apiQuotes array
-  const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
+  //   const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
 
   // Pick a random quote from localQuotes array
-  // const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
+  const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
 
   // Check if Author field is blank and replace it with 'Unknown'
   if (!quote.author) {
@@ -76,7 +76,7 @@ newQuoteBtn.addEventListener("click", newQuote);
 twitterBtn.addEventListener("click", tweetQuote);
 
 // On Load
-getQuotes();
+// getQuotes();
 
 // -----> If using API, run getQuotes(), if not run newQuote() instead
-// newQuote();
+newQuote();
