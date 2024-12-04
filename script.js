@@ -9,7 +9,7 @@ const loader = document.getElementById("loader");
 
 // -----> If you're using the localQuotes array you can remove apiQuotes variable
 
-let apiQuotes = [];
+// let apiQuotes = [];
 
 // Loading Spinner Shown
 function loading() {
@@ -55,17 +55,17 @@ function newQuote() {
 // -----> If you're using the localQuotes array you can remove getQuotes() function
 
 // Get Quotes From API
-async function getQuotes() {
-  loading();
-  const apiUrl = "https://jacintodesign.github.io/quotes-api/data/quotes.json";
-  try {
-    const response = await fetch(apiUrl);
-    apiQuotes = await response.json();
-    newQuote();
-  } catch (error) {
-    // Catch Error Here
-  }
-}
+// async function getQuotes() {
+//   loading();
+//   const apiUrl = "https://jacintodesign.github.io/quotes-api/data/quotes.json";
+//   try {
+//     const response = await fetch(apiUrl);
+//     apiQuotes = await response.json();
+//     newQuote();
+//   } catch (error) {
+//     // Catch Error Here
+//   }
+// }
 
 // Tweet Quote
 function tweetQuote() {
