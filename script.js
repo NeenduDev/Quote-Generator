@@ -60,8 +60,11 @@ async function getQuotes() {
     const response = await fetch(apiUrl);
     apiQuotes = await response.json();
     newQuote();
+    throw new Error("oops");
   } catch (error) {
     // Catch Error Here
+    // getQuotes();
+    console.log(error);
   }
 }
 
