@@ -15,6 +15,10 @@ This is a web-based Quote Generator application that displays inspirational quot
 
 ![Preview](screenshot.png)
 
+## Hosted Link
+
+Check out the live application here: [Quote Generator](https://neendudev.github.io/Quote-Generator/)
+
 ## Technologies Used
 
 - **HTML5**: Structure of the application.
