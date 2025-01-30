@@ -53,7 +53,7 @@ Check out the live application here: [Quote Generator](https://neendudev.github.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](/LICENCE.txt) file for details.
 
 ## Acknowledgments
 
